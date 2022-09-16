@@ -13,6 +13,8 @@
 		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
 </head>
 
@@ -54,14 +56,62 @@
 				</ul>
 			</nav>
 		</div>
-		<img src="./img/main-page/header/banner.jpg" alt="flowers" class="header__img">
+		<div class="header-slider">
+			<div><img src="./img/main-page/header/flowers.jpg" alt="flowers" class="header__img"></div>
+			<div><img src="./img/main-page/header/skyscrapers.jpg" alt="flowers" class="header__img"></div>
+			<div><img src="./img/main-page/header/we-like.jpg" alt="flowers" class="header__img"></div>
+		</div>
+
 
 	</header>
 
 	<!--Main-->
-	<main></main>
+	<main>
+
+		<!-- Hero -->
+		<section class="hero">
+			<div class="hero-container section">
+				<h1 class="hero__title title">О компании</h1>
+				<p class="hero__text">На российском рынке Lakra Sintez является ведущим производителем декоративных красок и
+					покрытий. По оценке аналитиков
+					рынка входит в ТОП-3 компаний-производителей отрасли. Успешно развивает новые направления деятельности:
+					клеевые
+					материалы и дисперсии</p>
+				<a href="#" class="hero__link link">Узнать больше &#8680;</a>
+				<ul class="hero__list list">
+					<li class="hero__item">
+						<h2 class="hero__subtitle title">25 лет</h2>
+						<p class="hero__desc">С 1996 г. мы производим и продаём широкий спектр лакокрассочнх материалов</p>
+					</li>
+					<li class="hero__item">
+						<h2 class="hero__subtitle title">11.000 точек</h2>
+						<p class="hero__desc">Наша продукция представлена свыше 11 тыс. торговых точек по всей России</p>
+					</li>
+					<li class="hero__item">
+						<h2 class="hero__subtitle title">40.000 литров</h2>
+						<p class="hero__desc">За 25 лет работы реализовали более 1 млн. литров разнообразных материалов для
+							отделки и ремонта</p>
+					</li>
+				</ul>
+			</div>
+
+			<video class="hero__video" src="./video/main-page/hero/hero-video.mp4"
+				poster="./img/main-page/hero/poster/hero-poster.jpg" preload="none" controls></video>
+			<p class="hero__video-desc section">На российском рынке Lakra Sintez является ведущим производителем
+				декоративных красок и покрытий. По оценке аналитиков
+				рынка входит в ТОП-3 компаний-производителей отрасли. Успешно развивает новые направления деятельности:
+				клеевые
+				материалы и дисперсии</p>
+
+		</section>
+	</main>
 	<!--Footer-->
 	<footer></footer>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="./script.js"></script>
 </body>
 
 </html>
