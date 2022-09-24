@@ -13,3 +13,10 @@ $(document).ready(function () {
     $(this).toggleClass('active').next().slideToggle(300);
   });
 });
+
+// Scroll Up
+
+const onTop = document.querySelector('.feedback__pic');
+onTop.onclick = () => {
+  window.scrollTo(0, 0);
+};
